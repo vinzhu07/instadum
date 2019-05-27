@@ -1,0 +1,8 @@
+[Unit]
+Description=Instapy systemd module
+
+[Service]
+ExecStart=/usr/bin/python3 /root/quickstart.py
+
+[Install]
+WantedBy=multi-user.target
