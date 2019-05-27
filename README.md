@@ -17,7 +17,7 @@ systemctl stop instapy
 
 # script usage
 
-put script in root
+put `rng.bash` in `/root/`
 
 setup cronjob as follows:
 
